@@ -29,4 +29,13 @@ body {
     font-size: 1rem;
     line-height: 1.5;
   }
+
+
+
+<!-- all elements in css are wraped into a box
+    content actual content width,height
+    padding area that covers the content "margin: 20px 0 20px 0;"
+    border  line that covers the padding "1px solid color"
+    margin area that is after the border "margin: 20px 0 20px 0;"
+-->
   
