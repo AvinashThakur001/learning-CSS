@@ -1,0 +1,20 @@
+.outer{
+    margin:100px auto;
+    width: 800px;
+    height: 800px;
+    background-color: mediumvioletred;
+    position: relative;
+}
+.inner{
+    width:200px;
+    height: 200px;
+    background-color: papayawhip;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* removes element from the normal flow of the website */
+    /* position is sgiven reletive to parent 
+    if parent position is not declared position is given relative to body */
+}
